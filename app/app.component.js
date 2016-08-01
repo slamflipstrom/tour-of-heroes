@@ -19,6 +19,7 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             template: "\n    <h1>{{title}}</h1>\n    <nav>\n      <a [routerLink]=\"['/dashboard']\"\n      routerLinkActive=\"active\">Dashboard</a>\n      <a [routerLink]=\"['/heroes']\"\n      routerLinkActive=\"active\">Heroes</a>\n    </nav>\n  <router-outlet></router-outlet>\n  ",
+            styleUrls: ['app/app.component.css'],
             directives: [router_1.ROUTER_DIRECTIVES],
             providers: [
                 hero_service_1.HeroService

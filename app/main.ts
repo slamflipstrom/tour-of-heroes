@@ -6,4 +6,4 @@ import { appRouterProviders } from './app.routes';
 
 bootstrap(AppComponent, [
   appRouterProviders
-];
+]);

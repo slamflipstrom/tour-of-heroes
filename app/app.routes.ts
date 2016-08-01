@@ -8,9 +8,9 @@ const routes: RouterConfig = [
   {
     path: 'heroes',
     component: HeroesComponent
-  }
+  },
   {
-    path: 'dashboard';
+    path: 'dashboard',
     component: DashboardComponent
   },
   {
